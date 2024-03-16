@@ -43,13 +43,13 @@ main()
 					switch(aleatorio) 
 						{
 						case 1:
-							cout<<"1-¿Que es programacion?"<<endl;
-							cout<<"a)diseñar, depurar, codificar y mantener un codigo"<<endl;
-							cout<<"b)Un conjunto de programas"<<endl;
-							cout<<"c)Secuencia de operaciones en un determinado orden"<<endl;
-							cout<<"d)Se usa para resolver un problema"<<endl;
+							cout<<"1.¿Qué son las técnicas de recolección de datos?"<<endl;
+							cout<<"a)Conjunto de herramientas que permiten encontrar información de todo tipo."<<endl;
+							cout<<"b)Métodos utilizados para recoger y analizar diferentes formas de datos."<<endl;
+							cout<<"c)Plan de pasos que se siguen para encontrar datos de un tema específico."<<endl;
+							cout<<"d)Información que se capta por medio de una entrevista u observación. "<<endl;
 							cin>>respuesta;
-						    if(respuesta=='a')
+						    if(respuesta=='b')
 								{
 							  		cout<<"la respuesta es correcta"<<endl;
 							  		contap=contap+1;
@@ -57,52 +57,54 @@ main()
 							else
 								{
 									cout<<"La respuesta es ERRONEA"<<endl;
-									cout<<"La respuesta es: diseñar, depurar, codificar y mantener un codigo"<<endl;
+									cout<<"La respuesta es: Métodos utilizados para recoger y analizar diferentes formas de datos."<<endl;
 									contan=contan+1;
 								}
 						break;	
 						case 2:	
-							cout<<"2-¿Que es un algoritmo?"<<endl;
-							cout<<"a)Es la forma para resolver un problema"<<endl;
-							cout<<"b)Un conjunto de criterios para evaluar"<<endl;
-							cout<<"c)Una lista de opciones"<<endl;
-							cout<<"d)Indica el orden de realizacion"<<endl;
+							cout<<"2-¿Cuántos tipos de datos en tecnicas de recoleccion de informacion existen? "<<endl;
+							cout<<"a)3."<<endl;
+							cout<<"b)4."<<endl;
+							cout<<"c)2."<<endl;
+							cout<<"d)6."<<endl;
 							cin>>respuesta;	
-						    if(respuesta=='a')
+						    if(respuesta=='c')
 								{
-									cout<<"la respuesta es correcta2"<<endl;
+									cout<<"la respuesta es correcta"<<endl;
 									contap=contap+1;
 							    }
 							else
 								{
 									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta es: 2."<<endl;
 									contan=contan+1;
 								}
 						break;	
 						case 3:
-							cout<<"¿3-¿Cuales son las fases del ciclo de vida del Software?"<<endl;
-							cout<<"a)Mantenimiento y evolucion, Identificacion de necesidades"<<endl;
-							cout<<"b)Validación, analisis y diseño"<<endl;
-							cout<<"c)Pruebas y codificacion"<<endl;
-							cout<<"d)Todas las anteriores"<<endl;
+							cout<<"3-¿Qué son los datos cualitativos?"<<endl;
+							cout<<"a)Son los que describen características, cualidades y otros rasgos no    cuantificables."<<endl;
+							cout<<"b)Se trata de los que permiten evaluar rasgos, características y otros que se puedan contabilizar."<<endl;
+							cout<<"c)Aquellos que muestran una descripción de una persona u objeto."<<endl;
+							cout<<"d)Describen los pro y contra del tema que se está tratando."<<endl;
 							cin>>respuesta;	
-						    if(respuesta=='d')
+						    if(respuesta=='a')
 							    {
-							    	cout<<"la respuesta es correcta3"<<endl;
+							    	cout<<"la respuesta es correcta"<<endl;
 							    	contap=contap+1;
 							    }
 							else
 								{
-							    	cout<<"La respuesta es incorrecta3"<<endl; 
+							    	cout<<"La respuesta es incorrecta"<<endl;
+									cout<<"La respuesta es: Son los que describen características, cualidades y otros rasgos no cuantificables."<<endl; 
 									contan=contan+1;
 							    }
 						break; 
 						case 4:
-					    	cout<<"4-¿Identificacion de Necesidades:¿Cuales son las fases para plantear un problema?"<<endl;
-							cout<<"a)Establecer y Listar"<<endl;
-							cout<<"b)Validar, Analizar y Diseñar"<<endl;
-							cout<<"c)Establecer, Listar, Recabar, Evaluar"<<endl;
-							cout<<"d)Ninguna"<<endl;
+					    	cout<<"4-¿Qué son los datos cuantitativos?"<<endl;
+							cout<<"a)Se refiere a los datos cuantificables o contabilizables."<<endl;
+							cout<<"b)Son los que tienen parámetros de medición."<<endl;
+							cout<<"c)Son los que describen características, cualidades y otros rasgos no    cuantificables."<<endl;
+							cout<<"d)Aquellos que se pueden evaluar con números o aplicación matemática."<<endl;
 							cin>>respuesta;
 							if(respuesta=='a')
 								{
@@ -112,17 +114,18 @@ main()
 							else
 								{
 							    	cout<<"La respuesta es incorrecta"<<endl;
+							    	cout<<"La respuesta es: Se refiere a los datos cuantificables o contabilizables."<<endl;
 							    	contan=contan+1;
 							    }
 						break;    
 						case 5:
-					    	cout<<"5-¿Que es establecer?"<<endl;
-							cout<<"a)Las oportunidades a partir de los criterios que se establezcan"<<endl;
-							cout<<"b)Datos e informacion para cada oportunidad y garantizar una decision"<<endl;
-							cout<<"c)Listar opciones que seran la base de cada oportunidad"<<endl;
-							cout<<"d)Conjunto de criterios para evaluar las oportunidades, si se adecua con requerimiento del cliente"<<endl;
+					    	cout<<"5-¿Qué son las técnicas de recolección de datos?"<<endl;
+							cout<<"a)Especialidad que se encarga de recopilar datos por medio de encuestas ."<<endl;
+							cout<<"b)Aplicación de pasos a seguir para encontrar información valiosa y real."<<endl;
+							cout<<"c)Conjunto de parámetros diseñado para encapsular información rápida"<<endl;
+							cout<<"d)Herramientas que permiten recopilar información de forma hábil y eficaz con fines de investigación y análisis."<<endl;
 							cin>>respuesta;
-							if(respuesta=='b')
+							if(respuesta=='d')
 								{
 							    	cout<<"la respuesta es correcta"<<endl;
 							    	contap=contap+1;
@@ -130,15 +133,35 @@ main()
 							else
 								{
 							    	cout<<"La respuesta es incorrecta"<<endl; 
+							    	cout<<"La respuesta es: Herramientas que permiten recopilar información de forma hábil y eficaz con fines de investigación y análisis."<<endl;
 							    	contan=contan+1;	
 							    }
 						break;    
 						case 6:
-					    	cout<<"6-¿Que es Listar?"<<endl;
-							cout<<"a)Conjunto de criterios para evaluar las oportunidades, si se adecua con requerimiento del cliente"<<endl;
-							cout<<"b)Listar opciones que seran la base de cada oportunidad"<<endl;
-							cout<<"c)Datos e informacion para cada oportunidad y garantizar una decision"<<endl;
-							cout<<"d)Las oportunidades a partir de los criterios que se establezcan"<<endl;
+					    	cout<<"6-¿Cuáles son algunas de las técnicas de recolección de datos?"<<endl;
+							cout<<"a)Encuestas, chatear, grupos focus."<<endl;
+							cout<<"b)Seguimiento redes sociales, juegos, estudio de mercado, encuestas."<<endl;
+							cout<<"c)Encuestas, monitorear redes sociales, formularios, observación."<<endl;
+							cout<<"d)Transaccional Tracking, entrevistas, chats, convivir."<<endl;
+							cin>>respuesta;
+							if(respuesta=='c')
+								{
+							    	cout<<"la respuesta es correcta"<<endl<<endl<<endl;
+							    	contap=contap+1;
+							    }
+							else
+								{
+							    	cout<<"La respuesta es incorrecta"<<endl<<endl<<endl;
+							    	cout<<"La respuesta es: Encuestas, monitorear redes sociales, formularios, observación."<<endl;
+							    	contan=contan+1;	
+						    	} 
+						break;
+						case 7:
+					    	cout<<"7-¿Qué son los Focus Group?"<<endl;
+							cout<<"a)Grupo de discusión conformado por varias personas que comparten un interés o necesidad vital."<<endl;
+							cout<<"b)Grupo de discusión conformado por varias personas que comparten un interés o necesidad común."<<endl;
+							cout<<"c)Entrevista de varias personas que hablan de uno o varios temas."<<endl;
+							cout<<"d)Reunión online de personas destinada a tratar una necesidad o tema que requiera solución o difusión."<<endl;
 							cin>>respuesta;
 							if(respuesta=='b')
 								{
@@ -148,6 +171,66 @@ main()
 							else
 								{
 							    	cout<<"La respuesta es incorrecta"<<endl<<endl<<endl;
+							    	cout<<"La respuesta es: Grupo de discusión conformado por varias personas que comparten un interés o necesidad común."<<endl;
+							    	contan=contan+1;	
+						    	} 
+						break;
+						case 8:
+					    	cout<<"8-Según el siguiente enunciado marque la opción correcta a la que hace referencia:";
+							cout<<"\nEs una técnica de recolección de datos que se basa en las compras realizadas para obtener información."<<endl<<endl;
+							cout<<"a)Seguimiento transaccional."<<endl;
+							cout<<"b)Seguimiento en línea."<<endl;
+							cout<<"c)Transaccional Fracking."<<endl;
+							cout<<"d)A y C son correctas."<<endl;
+							cin>>respuesta;
+							if(respuesta=='a')
+								{
+							    	cout<<"la respuesta es correcta"<<endl<<endl<<endl;
+							    	contap=contap+1;
+							    }
+							else
+								{
+							    	cout<<"La respuesta es incorrecta"<<endl<<endl<<endl;
+							    	cout<<"La respuesta es: Seguimiento transaccional."<<endl;
+							    	contan=contan+1;	
+						    	} 
+						break;
+						case 9:
+					    	cout<<"9-La definición de la técnica de recolección: Formularios es:"<<endl;
+							cout<<"a)Cuestionarios que son llevados de forma física o digital y permiten conocer datos cuantitativos y cualitativos."<<endl;
+							cout<<"b)Aquellos que tratan de recopilar datos a través de un conjunto de preguntas que permitan recoger datos cualitativos de un sujeto o grupo de sujetos."<<endl;
+							cout<<"c)Formulario que recolecta información y brinda un avance a los encargados para realizar un nuevo estudio."<<endl;
+							cout<<"d)A y C son correctas."<<endl;
+							cin>>respuesta;
+							if(respuesta=='b')
+								{
+							    	cout<<"la respuesta es correcta"<<endl<<endl<<endl;
+							    	contap=contap+1;
+							    }
+							else
+								{
+							    	cout<<"La respuesta es incorrecta"<<endl<<endl<<endl;
+							    	cout<<"La respuesta es: Aquellos que tratan de recopilar datos a través de un conjunto de preguntas que permitan recoger datos cualitativos de un sujeto o grupo de sujetos."<<endl;
+							    	contan=contan+1;	
+						    	} 
+						break;
+						case 10:
+					    	cout<<"10-Según el siguiente enunciado marque la opción correcta a la que hace referencia: "<<endl;
+					    	cout<<"A diferencia de las demás técnicas de recolección de datos en internet, suele ser más general y puede realizarse en sitios distintos de los de comercio electrónico o medios sociales mediante el uso de cookies"<<endl<<endl;
+							cout<<"a)Seguimiento de redes sociales."<<endl;
+							cout<<"b)Observaciones."<<endl;
+							cout<<"c)Transaccional Tracking."<<endl;
+							cout<<"d)Seguimiento en línea."<<endl;
+							cin>>respuesta;
+							if(respuesta=='d')
+								{
+							    	cout<<"la respuesta es correcta"<<endl<<endl<<endl;
+							    	contap=contap+1;
+							    }
+							else
+								{
+							    	cout<<"La respuesta es incorrecta"<<endl<<endl<<endl;
+							    	cout<<"La respuesta es: Seguimiento en línea."<<endl;
 							    	contan=contan+1;	
 						    	} 
 						break;
